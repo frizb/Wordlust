@@ -42,3 +42,4 @@ This word list contains many, many sources.  As new sources are added, I include
 * https://weakpass.com/links
 * https://github.com/initstring/lyricpass/
 * https://github.com/initstring/passphrase-wordlist
+* https://hashes.org/hashlists.php
