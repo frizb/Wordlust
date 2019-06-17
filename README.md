@@ -18,7 +18,7 @@ To create this list, I processed multiple leaked / cracked passwords lists and:
 1. removed all the mutation characters (numbers and symbols) and lowercased them all. 
 2. Un-leet speaked the words to get the base word list (@->A, $->S) etc.
 
-Also I combined it with many dictionaries of words such as english dictionary words, cities, names, company names, sports teams, computer terms, default passwords, celebrity names, universities, movies, movie quotes, phrases, song lyrics, book titles and many more.
+Also I combined it with many dictionaries of words such as english dictionary words, cities, names, company names, sports teams, computer terms, default passwords, keyboard character runs, celebrity names, universities, movies, movie quotes, phrases, song lyrics, book titles and many more.
 
 Finally, I lowercase everything and remove any duplicates and sort them alphabetically. 
 
