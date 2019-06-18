@@ -9,8 +9,10 @@ Hashcat is MUCH faster at generating mutations on the fly than running through w
 * Hashcat Wordlist Speed: 12000 kH/s
 * Hashcat Wordlist Mutation Speed: 6682.3 MH/s
 
-Wordlust is based on the assumption that it is more efficient to create a large list of password "base" words rather than mutating existing known passwords.
-Wordlust is a wordlist comprised of known bad password "base" words and other wordlists. Other people have done most of the work to curate this list, I mostly just rammed them all together into one file to use as a mutation base.
+Wordlust is based on the assumption that it is more efficient to create a large list of password "base" words rather than mutating existing known passwords lists.
+Wordlust is a wordlist comprised of known password lists that have been processed to find the unique "base" words. It also includes a number of other non-password word lists. Other people have done most of the work to curate this list, I mostly just rammed them all together into one file to use as a mutation base.
+
+Ultimately, my goal for this project is to create a wordlist and a mutator list that can run for 8 hours (while I sleep) against an NTLM database with a high success rate.
 
 # How was Wordlust created?
 
@@ -43,3 +45,4 @@ This word list contains many, many sources.  As new sources are added, I include
 * https://github.com/initstring/lyricpass/
 * https://github.com/initstring/passphrase-wordlist
 * https://hashes.org/hashlists.php
+* https://weakpass.com/
