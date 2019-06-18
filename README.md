@@ -12,7 +12,7 @@ Hashcat is MUCH faster at generating mutations on the fly than running through w
 Wordlust is based on the assumption that it is more efficient to create a large list of password "base" words rather than mutating existing known passwords lists.
 Wordlust is a wordlist comprised of known password lists that have been processed to find the unique "base" words. It also includes a number of other non-password word lists. Other people have done most of the work to curate this list, I mostly just rammed them all together into one file to use as a mutation base.
 
-Ultimately, my goal for this project is to create a wordlist and a mutator list that can run for 8 hours (while I sleep) against an NTLM database with a high success rate.
+Ultimately, my goal for this project is to create a wordlist and a mutator list that can run for 8 hours (while I sleep) against an NTLM database with a high success rate (target wordlist file size is roughly 50 GB).
 
 # How was Wordlust created?
 
